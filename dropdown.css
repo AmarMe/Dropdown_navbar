@@ -1,0 +1,45 @@
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .navigators{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    list-style-type: none;
+  }
+  a{
+    display: block;
+    width: 200px;
+    background-color: #edd677;
+    color: rgb(114, 99, 21);
+    text-decoration: none;
+    padding: 18px 0px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.2rem;
+  }
+  a:hover{
+    background-color: rgb(186, 160, 29);
+    color: whitesmoke;
+  }
+  .product{
+    margin-top: 5px;
+    list-style-type: none;
+    display: none;
+  }
+  .navigators li:nth-child(2):hover .product{
+    display: block;
+  }
+
+  .laptops{
+    list-style-type: none;
+    margin-left: 5px;
+    transform:translateX(200px) translateY(-58px);
+    position: absolute;
+    display: none;
+  }
+  .product li:nth-child(3):hover .laptops{
+    display: block;
+  }
